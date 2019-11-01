@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Demo - controle de senha!</title> 
+        <link type="text/css" rel="stylesheet" href="css/style.css" />
+    </head>
+    <body style="zoom:110%">
+    
+        <h2 id="titulo">
+            Utilize também essa API!
+        </h2>
+        <div class="div">
+            O que você quer ouvir?<br>
+            <input type="text" id="texto" placeholder="Digite Aqui" autocomplete="off" class="input"><br><br> 
+            Escolha uma voz:<br>
+                <input type="radio" name="vozes" value="Female"/>Mulher
+                <input type="radio" name="vozes" value="Male"/>Homem 
+                <br>
+                <br>
+            <input type="submit" value="Ouvir"  class="button" onclick="ouvir()">
+        </div>
+        <script src="https://code.responsivevoice.org/responsivevoice.js?key=HOp1bC0P"></script>
+        <script src="js/app.js"></script>
+    </body>
+</html>
